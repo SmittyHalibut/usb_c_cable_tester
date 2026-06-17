@@ -926,7 +926,7 @@
 			(net 11 "+3V3")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "d6995aaf-5476-42a6-a0aa-494570177f79")
+			(uuid "f971325a-8a06-4ff8-9f6c-5fa4bd5109bd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Micro-B_Wuerth_614105150721_Vertical.step"
@@ -1293,7 +1293,7 @@
 			(net 11 "+3V3")
 			(pinfunction "Shield")
 			(pintype "passive")
-			(uuid "cff8c91e-8c30-4b6c-98b9-576a4daa214a")
+			(uuid "8f93119f-6249-4340-871f-a8ed042faa2c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Tensility_54-00023_Vertical.step"
@@ -3698,7 +3698,7 @@
 			(net 49 "/SHLD")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "778d2759-621c-4c5b-b48d-b7602efc9eac")
+			(uuid "6aa12fc6-1c2c-42cd-a8dc-1829e37adf62")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.1 -1.47)
@@ -3710,7 +3710,7 @@
 			(net 49 "/SHLD")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "778d2759-621c-4c5b-b48d-b7602efc9eac")
+			(uuid "36d7ac94-720f-40ce-9515-a104bf5c8366")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.1 1.47)
@@ -3722,7 +3722,7 @@
 			(net 49 "/SHLD")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "778d2759-621c-4c5b-b48d-b7602efc9eac")
+			(uuid "c1d48fa5-373c-4824-9d3b-524c566575c5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_JAE_DX07S024WJ3R400.step"
@@ -6499,7 +6499,7 @@
 			(net 11 "+3V3")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "fb64acc5-8e49-48b7-8c7e-78cf51ca88ab")
+			(uuid "7c7020cf-2af9-454e-a5e0-9abb4e0e6800")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.1 -1.47)
@@ -6511,7 +6511,7 @@
 			(net 11 "+3V3")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "fb64acc5-8e49-48b7-8c7e-78cf51ca88ab")
+			(uuid "9e447eec-bd7c-4019-a0cf-ef4487e1908b")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.1 1.47)
@@ -6523,7 +6523,7 @@
 			(net 11 "+3V3")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "fb64acc5-8e49-48b7-8c7e-78cf51ca88ab")
+			(uuid "e9085aba-bd5d-463b-920c-afe127c8c18d")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_JAE_DX07S024WJ3R400.step"
@@ -7403,7 +7403,7 @@
 			(net 11 "+3V3")
 			(pinfunction "SSTX-")
 			(pintype "output")
-			(uuid "57488338-545d-4b8e-b618-c7186e9267ae")
+			(uuid "194a3a63-aad0-4381-b6f3-bc7471091188")
 		)
 		(pad "6" thru_hole circle
 			(at -2.5 -3.3 270)
@@ -7458,7 +7458,7 @@
 			(net 11 "+3V3")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ac49beff-4f3a-43e2-a589-5fa19695b83a")
+			(uuid "4f979c69-a3ed-4a66-982f-db91352d4854")
 		)
 		(pad "10" thru_hole circle
 			(at 6 0.52 270)
@@ -7469,7 +7469,7 @@
 			(net 11 "+3V3")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ac49beff-4f3a-43e2-a589-5fa19695b83a")
+			(uuid "dd8fcb37-3482-46a9-a570-9dbf666e709e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_B_TE_5787834_Vertical.wrl"
@@ -8731,7 +8731,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C381137"
+		(property "LCSC" "C19273972"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
