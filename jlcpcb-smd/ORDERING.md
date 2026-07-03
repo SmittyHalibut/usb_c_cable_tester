@@ -16,6 +16,8 @@ Pre-built bundles are also attached to the [releases page](https://github.com/al
 ## Upload Gerbers and Select PCB Parameters
 Go to JLCPCB, click on "instant quote" or "order now" and upload the gerber zip.
 
+***MAKE SURE YOU SELECT 0.8mm BOARD THICKNESS*** otherwise, the USB-C connector soldering will be unreliable at best.
+
 Select the following settings (or change how you like them)
 > ENIG will look better, but it's a bit more expensive. I definitely recommend lead free HASL at the very least
 
