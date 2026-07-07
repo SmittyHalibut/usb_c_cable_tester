@@ -2324,6 +2324,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USB_C_Receptacle_1"
 			(pin_names
 				(offset 1.016)
@@ -4118,6 +4268,12 @@
 		(uuid "38b67795-e882-460c-89e1-e8eadf7f6a90")
 	)
 	(junction
+		(at 279.4 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39b5e16a-1aea-47af-b192-4bcf518b3f6f")
+	)
+	(junction
 		(at 88.9 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4919,6 +5075,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 149.86) (xy 238.76 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c60d95-a920-4bb6-8e6f-b6f655ecc906")
+	)
+	(wire
+		(pts
 			(xy 88.9 81.28) (xy 88.9 91.44)
 		)
 		(stroke
@@ -4956,6 +5122,16 @@
 			(type default)
 		)
 		(uuid "398eceb1-f76d-482b-98b9-ce9afc4192b7")
+	)
+	(wire
+		(pts
+			(xy 279.4 149.86) (xy 279.4 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b198f93-6d23-4a38-8e41-2cad6b19fdcb")
 	)
 	(wire
 		(pts
@@ -5929,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 144.78) (xy 279.4 147.32)
+			(xy 279.4 144.78) (xy 279.4 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6349,6 +6525,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 149.86) (xy 279.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06cf855-b9c9-448d-a9ae-3483e8c01ae4")
+	)
+	(wire
+		(pts
 			(xy 279.4 68.58) (xy 279.4 73.66)
 		)
 		(stroke
@@ -6636,6 +6822,16 @@
 			(type default)
 		)
 		(uuid "f0ef6dbe-9e25-49d7-affd-74c3973acfc1")
+	)
+	(wire
+		(pts
+			(xy 256.54 149.86) (xy 264.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f5e261-589d-4ae5-b686-1e720ec85445")
 	)
 	(wire
 		(pts
@@ -8430,6 +8626,81 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 228.6 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "331063f2-f962-45d7-8579-fca967b395ad")
+		(property "Reference" "#PWR01"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 225.425 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C70377"
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "355c1d50-1f20-47a9-ad2d-6cd5f5cdc115")
+		)
+		(instances
+			(project "usb_c_cable_tester"
+				(path "/b34019fd-8cd0-4bd2-b342-eb5b70c9786d"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 254 124.46 90)
 		(unit 1)
@@ -9334,6 +9605,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 266.7 149.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f26f1ca-8eb9-4276-bc7d-86ed416d1ea4")
+		(property "Reference" "D26"
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 266.7 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt LCSC" "C72038"
+			(at 266.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "877094d7-43cb-4661-9842-e352b37e2c5a")
+		)
+		(pin "2"
+			(uuid "411c483e-2d8c-450d-b306-386b60312b3f")
+		)
+		(instances
+			(project "usb_c_cable_tester"
+				(path "/b34019fd-8cd0-4bd2-b342-eb5b70c9786d"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 254 43.18 90)
 		(unit 1)
@@ -9593,7 +9948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 147.32 0)
+		(at 279.4 154.305 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9602,7 +9957,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fb2c29e-204b-4b0b-af92-336d470d288c")
 		(property "Reference" "#PWR0106"
-			(at 279.4 153.67 0)
+			(at 279.4 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9611,7 +9966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 152.4 0)
+			(at 279.4 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 147.32 0)
+			(at 279.4 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 147.32 0)
+			(at 279.4 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +9992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 147.32 0)
+			(at 279.4 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +10000,7 @@
 			)
 		)
 		(property "LCSC" "C70377"
-			(at 279.4 153.67 0)
+			(at 279.4 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda:BAT-TH_CR2032-BS-6-1"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
 			(at 45.72 31.496 90)
 			(effects
 				(font
@@ -11722,6 +12077,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 254 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c69eb24f-fcab-4375-89ae-7c738ddf9c12")
+		(property "Reference" "R26"
+			(at 251.46 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 256.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 251.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt LCSC" ""
+			(at 254 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7bbdde9-e44b-427d-b838-ffe0025ae9e4")
+		)
+		(pin "2"
+			(uuid "454ca82c-8599-4785-aa8e-cafdfa3900a0")
+		)
+		(instances
+			(project "usb_c_cable_tester"
+				(path "/b34019fd-8cd0-4bd2-b342-eb5b70c9786d"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small_Filled")
 		(at 266.7 27.94 180)
 		(unit 1)
@@ -11800,6 +12239,83 @@
 			(project "usb_c_cable_tester"
 				(path "/b34019fd-8cd0-4bd2-b342-eb5b70c9786d"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 233.68 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc9a641-5780-455c-8591-7fc5ad640a80")
+		(property "Reference" "SW1"
+			(at 233.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f430c4fd-a790-4586-a2af-0585f1d15ed5")
+		)
+		(pin "1"
+			(uuid "99877c64-29c3-4930-a726-6a9e37974199")
+		)
+		(instances
+			(project "usb_c_cable_tester"
+				(path "/b34019fd-8cd0-4bd2-b342-eb5b70c9786d"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -12763,7 +13279,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C456007"
+		(property "LCSC" "C145794"
 			(at 120.65 102.8699 0)
 			(effects
 				(font
@@ -12772,7 +13288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alt LCSC" "C668588"
+		(property "Alt LCSC" "C145795"
 			(at 114.3 104.14 0)
 			(effects
 				(font
